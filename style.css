@@ -1,0 +1,84 @@
+ 
+ .firstbackGimg{
+    background-image: url("Images/625cb84f2a63ee33ec016e35db128149.jpg");
+    height: 600px;
+    width: 100%;
+    border-radius: 50px;
+    background-repeat: repeat-x;
+    
+ }
+
+ .head{
+    font-size: 76px;
+ }
+ .model{ 
+    position: relative;
+    top: 30%;
+    left:10%;
+ }
+
+ .T1model{ 
+    position: relative;
+    top: 30%;
+    left:5%;
+ }
+
+ .t1Sub{
+    position: relative;
+    top: 30%;
+    left:5%;
+ }
+
+ .secondbackGimg{
+    background-image: url("Images/4eec92a22fba3737595427bab8306f84.jpg");
+    height: 600px;
+    width: 100%;
+    border-radius: 50px;
+    background-repeat: repeat-x;
+ }
+
+ .imgBorder{
+    border-radius: 30px;
+
+ }  
+
+ @media screen and (max-width:770px) {
+     
+    .firstbackGimg{
+        background-image: url("Images/2ndVertical.jpg");
+        width: 100%;
+        height: 800px;
+        background-size: cover;
+        border-radius: 30px;
+    }
+ 
+    .model{ 
+        font-weight: 400;
+        font-size: 20px;
+        position: relative;
+        top: 5%;
+        left:5%;
+     }
+
+     .T1model{ 
+        position: relative;
+        top: 10%;
+        left:5%;
+        width: 55%;
+        height: 30%;
+     }
+    
+     .t1Sub{
+        position: relative;
+        top: 0%;
+        left:5%;
+     }
+    
+     .secondbackGimg{
+        background-image: url("Images/third-vertical.jpg");
+        height: 800px;
+        width: 100%;
+        border-radius: 30px;
+        background-repeat: repeat-x;
+     }
+ }
